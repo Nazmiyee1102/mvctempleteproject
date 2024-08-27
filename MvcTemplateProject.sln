@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcTemplateProject", "MvcTemplateProject\MvcTemplateProject.csproj", "{A60D6194-CB63-4788-8D79-DCDA06E2D00E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "YazOkuluDersleri", "YazOkuluDersleri\", "{47E7BB65-D26A-4AE8-8BAB-59A2B4C6F4E5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		ProjectReferences = "{1143940c-3132-4b7a-85cc-a93b8d4541a5}|BusinessLogicLayer.dll;{d571825b-36d5-418e-b50a-06c38327f3ae}|DAL.dll;{20c915cb-0c0d-4470-a4f4-fbcf3164f850}|EntityLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57845"
+		Debug.AspNetCompiler.PhysicalPath = "YazOkuluDersleri\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57845\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57845"
+		Release.AspNetCompiler.PhysicalPath = "YazOkuluDersleri\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57845\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57845"
+		SlnRelativePath = "YazOkuluDersleri\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{20C915CB-0C0D-4470-A4F4-FBCF3164F850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{D571825B-36D5-418E-B50A-06C38327F3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{1143940C-3132-4B7A-85CC-A93B8D4541A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60D6194-CB63-4788-8D79-DCDA06E2D00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60D6194-CB63-4788-8D79-DCDA06E2D00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60D6194-CB63-4788-8D79-DCDA06E2D00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60D6194-CB63-4788-8D79-DCDA06E2D00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E7BB65-D26A-4AE8-8BAB-59A2B4C6F4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E7BB65-D26A-4AE8-8BAB-59A2B4C6F4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E7BB65-D26A-4AE8-8BAB-59A2B4C6F4E5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E7BB65-D26A-4AE8-8BAB-59A2B4C6F4E5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{20C915CB-0C0D-4470-A4F4-FBCF3164F850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C915CB-0C0D-4470-A4F4-FBCF3164F850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C915CB-0C0D-4470-A4F4-FBCF3164F850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C915CB-0C0D-4470-A4F4-FBCF3164F850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D571825B-36D5-418E-B50A-06C38327F3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D571825B-36D5-418E-B50A-06C38327F3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D571825B-36D5-418E-B50A-06C38327F3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D571825B-36D5-418E-B50A-06C38327F3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1143940C-3132-4B7A-85CC-A93B8D4541A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1143940C-3132-4B7A-85CC-A93B8D4541A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1143940C-3132-4B7A-85CC-A93B8D4541A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1143940C-3132-4B7A-85CC-A93B8D4541A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F50BAA9C-7A37-4453-9D8D-B60FE977C89A}
+	EndGlobalSection
+EndGlobal
